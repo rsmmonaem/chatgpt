@@ -1,0 +1,110 @@
+/* option fonts */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Roboto&display=swap');
+body{
+    background-color: #1a1c29!important;
+    color: white!important;
+    /* margin: auto; */
+    margin: 0;
+    padding-top: 50px!important ;
+}
+
+@media screen and (max-width: 600px) {
+.container{
+    max-width: 1000px;
+    padding-bottom: 20px;
+    background-color: #6d8996;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+    margin: auto;
+    border-radius: 13px!important;
+}
+}
+.container{
+    max-width: 1000px;
+    padding-bottom: 20px;
+    background-color: #6d8996;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+    margin: auto;
+    border-radius: 13px!important;
+}
+h5{
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 25px;
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    background: #191c29;
+}
+.user-action{
+    position: relative;
+    height: 100px;
+    /* margin: 0; */
+    /* margin-left: 50px; */
+    /* margin-top: 20px; */
+    /* width: 100%; */
+    border-radius: 31px;
+    background: #191c29;
+}
+input{
+    /* margin-top: 25px; */
+    width: calc(100% - -0px);
+    font-size: 17px;
+    position: absolute;
+    text-align: center;
+    background: #1f285900;
+    font-family: Roboto, sans-serif;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    color: white;
+    /* margin-left: 327px; */
+    height: 65px;
+    margin: auto;
+    border-image: initial;
+    outline: none;
+    padding: 12px 60px 12px 20px;
+}
+button{
+    position: absolute;
+    right: 0px;
+    top: 1px;
+    border: none;
+    background-color: transparent;
+}
+button > svg{
+    fill: #7F6DF2;
+    padding: 0px 4px;
+    cursor: pointer;
+    margin-top: 25px;
+    outline: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+textarea{
+    width: 100%;
+    min-height: 440px;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    line-height: 180%;
+    vertical-align: top;
+    resize: none;
+    padding: 50px;
+    border-radius: 24px;
+    background: rgb(92 99 135 / 42%);
+    outline: none;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    margin: auto;
+    border-image: initial;
+    color: white;
+}
+textarea::-webkit-scrollbar{
+    width: 10px;
+}
+textarea::-webkit-scrollbar-thumb{
+    background: #cacaca;
+    border-radius: 4px;
+}
