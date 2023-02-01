@@ -1,2 +1,2 @@
-Topic: How to use OpenAI API with PHP | Tutorial on GPT-3 Text Completion Mode
-Note: This source code is provided By HA Codes and is allowed for personal and professional use.
+
+Note: This source code is provided By Monaem and is allowed for personal and professional use.
